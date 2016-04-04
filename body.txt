@@ -16,6 +16,7 @@ ifnempty(`_SERVICELOGIN', `         <d:ServiceLogin>_SERVICELOGIN</d:ServiceLogi
 ifnempty(`_SERVICEPASSWORD', `         <d:ServicePassword>_SERVICEPASSWORD</d:ServicePassword>', `dnl')
 ifnempty(`_CURSOR', `         <d:Cursor>_CURSOR</d:Cursor>', `dnl')
 ifnempty(`_PAGESIZE', `         <d:PageSize>_PAGESIZE</d:PageSize>', `dnl')
+ifnempty(`_FORCE', `         <d:Force>_FORCE</d:Force>', `dnl')
       </m:properties>
    </content>
 </entry>
